@@ -1,0 +1,48 @@
+#data-table {
+  margin-top: 50px;
+}
+
+
+
+/*code: https://codepen.io/msurguy/pen/Fjuqe*/
+.flat-btn {
+  display: inline-block;
+  margin: 0 10px;
+  border-radius: 6px;
+  font-family: "Lato", sans-serif;
+  font-size: 16.10px;
+  padding: 6px 20px;
+  border: 0;
+  background: #34495E;
+  color: #FFF;
+  cursor: pointer;
+  outline: 0;
+}
+
+.background-image {
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  display: block;
+  background-image: url('../images/blank-map.png');
+  width: 1200px;
+  height: 800px;
+
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}
+
+.content {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left: 20px;
+  margin-right: 20px;
+}
